@@ -1,0 +1,146 @@
+.h1-title{
+	background-color: black; 
+	color: white; 
+	text-align: center; 
+	font-size: 56px; 
+	font-weight: 100; 
+	letter-spacing: 4px
+}
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+.heading{
+	background-image: url(GettyImages-614515684.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100ch;
+}
+
+.menubar{
+	text-align: center;
+	background-color: lime;
+	height: 70px;
+	line-height: 70px;
+
+
+}
+
+.menubar ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.menubar ul li a{
+	color: white;
+	font-size: 24px;	
+}
+.menubar ul li a:hover{
+	color: black;
+	transition: 0.5s;
+	transform: scale(2);
+}
+
+
+.padding{
+	margin-top: 25px;
+}
+.padding a{
+	background-color: blue;
+	color: white;
+	font-size: 10px
+	margin-left: 25px;
+	padding: 20px;
+}
+.social-icon{
+	text-align: center;
+	margin: 50px 0;
+	position: fixed;
+	top: 300px;
+	left: 100px;
+	z-index: 9999;
+}
+.social-icon ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+	transition: 0.5s ease-in-out;
+	position: fixed;
+}
+.social-icon ul li a i:hover{
+	transform: scale(1.4);
+	transition: 0.5s ease-in-out; 
+}
+.contact{
+	width: 60%;
+	margin: 200px auto;
+	background-color: purple;
+	padding: 200px;
+	border-radius: 10px;
+}
+
+.cmt-box{
+	height: 300px;
+	width: 500px;
+	background-color: #D1D0D3;
+	margin: 100px auto;
+	border-radius: 10px;
+	position: relative;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.form{
+	background: rgba(0,0,0,0.5);
+	margin: 0 200px;
+}
+.form input{
+	display: block;
+	width: 80%;
+	padding: 15px 20px;
+	margin: 50px 0;
+
+}
+
+.cmt-arrow{
+	height: 40px;
+	width: 40px;
+	background-color: red;
+	position: absolute;
+	bottom:0;
+	left: 230px;
+
+}
+
+
+.program-name{
+background-color: tomato; 
+height: 100px; 
+text-align: center; 
+color: white; 
+line-height: 100px; 
+border-radius: 10px	
+}
+
+
+
+
